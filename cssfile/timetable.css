@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body{
+    font-family: 'Playfair Display', serif;
+    display: grid;
+    background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  align-content: center;
+  }
+  
+  .header {
+    background-color: #12192c;
+    height: 118px;
+    margin-bottom: 30px;
+    position: relative;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+   
+  }
+  .logo img{
+      width: 210px;
+      height: 108px;
+  }
+  
+  .socialicons {
+    padding: 10px;
+    font-size: 200%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10px;
+  
+  }
+  
+  .socialicons:hover {
+    opacity: 0.7;
+  }
+  
+  .fbicon {
+    background: #3B5296;
+    color: white;
+    }
+  .instaicon { 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  color: white;
+    
+  }
+  .inlineiconsocial{
+  position: absolute;
+  top: 10px;
+  right: 10px;}
+  
+  
+  header nav {
+    display: flex;
+    background-color: rgb(232, 18, 18);
+  }
+  
+  nav a.logo {
+    color: #F7CE68;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 60px;
+    cursor: pointer;
+    font-family: cursive;
+  }
+  
+  nav ul {
+    display: flex;
+    align-items: center;
+    transition: .5s;
+    list-style-type: none;
+    width: 100%;
+    justify-content: right;
+    position: absolute;
+    top: 97px;
+    right: 0px;
+    white-space: nowrap;
+    background-color: #503916;
+    BORDER-BOTTOM-RIGHT-RADIUS: 25PX;
+    BORDER-BOTTOM-LEFT-RADIUS: 25PX;
+  }
+  nav ul li{
+  margin-right: 15px;
+  } 
+  nav ul a {
+    color: #fdae1a;
+    font-size: 18px;
+    padding: 5px 13px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: .4s;
+  }
+  
+  nav ul a:visited{
+    color: #f86b00;
+  }
+  
+  .active,nav ul a:hover {
+    background: #fbd2d7;
+    padding: 10px;
+    color: #000;
+  }
+  
+  @media (max-width: 644.8px){
+    nav ul{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        }
+  }
+
+.mid{
+    display: block;
+    border: 3px solid black;
+    margin: 10px;
+    
+}
+
+.navbar li a{
+    text-decoration: none;
+    padding: 0px 57px;
+    font-family: 'Baloo 2', 'cursive';
+    font-weight: bold;
+    color: black;
+    margin: 0px 2px;
+    
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar li a:hover{
+    text-decoration: underline;
+    color: gray;
+}
+
+.container{
+    background-color: #484A56;
+
+}
+
+/* .first_table{
+    border: 2px solid white;
+} */
+
+.first_second{
+    border: 2px solid white;
+    background-color: white;
+}
+
+.timetable_sch td{
+    border: -1px solid red;
+    border-bottom: 4px solid red;
+    background: white;
+    padding: 2px 53px;
+    margin: 0px 2px;
+}
+
+.item{
+    font-family: 'Baloo 2', 'cursive';
+    color: #c8102e;
+    font-weight: bold;
+}
+
+.container2{
+    background-color: #484A56;
+}
+
+.timetable_sch2 td{
+    border: -1px solid red;
+    border-bottom: 4px solid red;
+    background-color: white;
+    padding: 2px 53px;
+    margin: 0px 2px;
+}
+
+.item2{
+    font-family: 'Baloo 2', 'cursive';
+    color: #c8102e;
+    font-weight: bold;
+}
+
+.timetable_day td{
+    padding: 11px -4px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.socials li{
+    display: inline-block;
+    padding: 0px 4px;
+    
+}
+
+.footer_content{
+    border: 2px solid red;
+    width: 100%;
+    height: auto;
+    background-color: #c8102e;
+}
+
+#fitness_footer{
+    text-align: center;
+    color: #f6bac1;
+}
+
+.socials{
+    margin-left: 579px;
+    margin-right: 50px;
+    width: 50%;
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+}
+
+.day_time{
+    color: white;
+}
+
+.timetable_day{
+    color: white;
+}
+
+td:empty{
+    background-color: #484A56;
+    border: none;
+}
+
+/*footer code*/
+.footer{
+    background-color: #12192c;
+    color:#fff;
+    padding: 20px 0;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-top: 25px;
+    
+  }
+  .footer-container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+   
+  }
+  .logo2{
+    width: 291px;
+
+  }
+  .social-media{
+    margin: 20px 30px;
+    
+  }
+  .social-media a{
+    color: #F7CE68;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: .3s linear;
+  }
+  .social-media a:hover{
+    color: #FBAB7E;
+  }
+  .footericons:hover{
+    padding: 10px;
+    background-color: rgb(80, 57, 22);
+    border-radius: 20px;
+    
+  }
+  .right-col h1{
+    font-size: 26px;
+  }
+  .border{
+    width: 200px;
+    height: 4px;
+    background: #F7CE68;
+  }
+  .newsletter-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .txtb{
+    flex: 1;
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #000;
+    background: #F7CE68;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 10px;
+    min-width: 260px;
+  }
+  .btn{
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #000;
+    background: #F7CE68;
+    border: #fff 2px solid;
+    font-weight: 700;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: opacity .3s linear;
+  }
+  .btn:hover{
+  border: #000 2px solid;
+  }
+  .page-content{
+    min-height: 100vh;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  @media screen and (max-width:960px) {
+    .footer-container{
+      max-width: 600px;
+    }
+    .right-col{
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .left-col{
+      width: 100%;
+      text-align: center;
+    }
+  }
+  @media screen and (max-width:700px){
+    .btn{
+      margin: 0;
+      width: 100%;
+      margin-top: 20px;
+      }
+  }

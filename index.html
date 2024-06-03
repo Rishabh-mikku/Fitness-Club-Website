@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fitness Club</title>
+    <link rel="stylesheet" href="cssfile/main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://www.google.com/recaptcha/api.js"></script>
+</head>
+<body>
+<div class="grid-container">
+  
+  <div class="header">
+      <div class="logo">
+      <img src="imagefile/logo.png" alt="Fitness Club header image" width="250" height="108"/>
+      </div>
+      <nav>
+      <ul id="nav_menu">
+      <li><a href="htmlfile/aboutus.html">About Us</a></li>
+      <li><a href="htmlfile/trainings.html">Training</a></li>
+      <li><a href="htmlfile/timetable.html">Timetable</a></li>
+      <li><a href="htmlfile/nutrition.html">Nutrition</a></li>
+      <li><a href="htmlfile/gallery1.html">Galllery</a></li>
+      </ul>
+      </nav>
+    <div class="inlineiconsocial">
+      
+      <a class="links-social-media" href="https://www.facebook.com" target="_blank" id="at-facebook" title="24 Hour Fitness at Facebook" aria-label="Facebook link"><i class="fa fa-facebook socialicons fbicon"></i></a>
+      <a class="links-social-media" href="https://www.instagram.com" target="_blank" id="at-instagram" title="24 Hour Fitness at Instagram" aria-label="Instagram link"><i class="fa fa-instagram socialicons instaicon"></i></a>
+      
+    </div>
+      
+    </div>
+
+  
+  <div class="lefty">
+  
+    <div class="carousel">
+      <input type="radio" name="carousel" id="slide-btn-1" class="slide-btn" onclick="setInt();" checked />
+      <input type="radio" name="carousel" id="slide-btn-2" class="slide-btn" onclick="setInt();" />
+      <input type="radio" name="carousel" id="slide-btn-3" class="slide-btn" onclick="setInt();" />
+      <input type="radio" name="carousel" id="slide-btn-4" class="slide-btn" onclick="setInt();" />
+      <input type="radio" name="carousel" id="slide-btn-5" class="slide-btn" onclick="setInt();" />
+      <div class="slide one parallax-effect"><h1>Slide 1</h1></div>
+    
+      <div class="slide two parallax-effect"><h1>Slide 2</h1></div>
+        
+      <div class="slide three parallax-effect"><h1>Slide 3</h1></div>
+        
+      <div class="slide four parallax-effect"><h1>Slide 4</h1></div>
+       
+      <div class="slide five parallax-effect"><h1>Slide 5</h1></div>
+        
+      <div class="labels">
+        <label for="slide-btn-1"></label>
+        <label for="slide-btn-2"></label>
+        <label for="slide-btn-3"></label>
+        <label for="slide-btn-4"></label>
+        <label for="slide-btn-5"></label>
+      </div>
+    </div>
+    <script type="text/javascript" src="javascript/imgslider.js"></script>
+ 
+  </div>  
+  
+  <div class="right">
+
+    <div class="wrapper" id="linked">
+      <div class="title-text">
+         <div class="title login">
+           <ins> Login Form </ins>
+         </div>
+         <div class="title signup">
+           <ins> Register Form</ins>
+         </div>
+      </div>
+      <div class="form-container">
+         <div class="slide-controls">
+            <input type="radio" name="slide" id="login" checked>
+            <input type="radio" name="slide" id="signup">
+            <label for="login" class="slide login">Login</label>
+            <label for="signup" class="slide signup">Register</label>
+            <div class="slider-tab"></div>
+         </div>
+         <div class="form-inner">
+            <form action="#" class="login">
+               <div class="field">
+                  <input type="text" placeholder="Email Address" required>
+               </div>
+               <div class="field">
+                  <input type="password" placeholder="Password" required>
+               </div>
+               <div class="pass-link">
+                  <a href="#">Forgot password?</a>
+               </div>
+               <div class="field btn">
+                  <div class="btn-layer"></div>
+                  <input type="submit" value="Login">
+               </div>
+               <div class="signup-link">
+                  Not a member? <a href="">Register now</a>
+               </div>
+            </form>
+            <form action="#" class="signup">
+               <div class="field">
+                  <input type="text" placeholder="Enter name" id="name" />
+               </div>
+               <div class="field">
+                  <input type="email" placeholder="Enter email" id="email" />
+               </div>
+               <div class="field">
+                <input type="password" placeholder="Password" id="password"/>
+               </div>
+<div class="field">
+                <input type="password" placeholder="Confirm Password" id="confirm"/>
+               </div>
+               <div class="field btn">
+                  <div class="btn-layer"></div>
+                  <input type="submit" value="Register">
+               </div>
+            </form>
+         </div>
+      </div>
+   </div>
+   <script src="javascript/login.js"></script>
+  </div>
+  
+  <div class="middle">
+
+      <div class="thumbnail">
+        <img src="https://cdn.pixabay.com/photo/2019/06/06/16/02/technology-4256272__340.jpg" class="left">
+      </div>
+      <div class="rightcolumn">
+        <h1> Information regarding pur club blah blah blah...</h1>
+        <div class="author">
+          <h2>Know More</h2>
+        </div>
+        <div class="separator">
+        <p id="infobox"> Are you looking for ways to boost productivity among your workforce and promote a healthy workplace culture in your organization? Having a fitness facility in your organization is the answer. It offers incredible advantages ranging from increased job satisfaction, improved retention, lower absenteeism. Most important of all, it provides your organization with a healthy and thriving workforce. Below are five advantages of having a fitness facility in your organization.
+          Having a corporate fitness facility has been directly correlated with a significant reduction in absenteeism. The reason behind this is extremely simple. Working out daily makes you healthier and is known to improve your immune system . A study found that regular workouts can minimize the number of colds you get per year. Building a gym in your office will help your employees lose weight and lead a healthy lifestyle.
+        </p>
+        </div>
+        
+      </div>
+      <div class="sitetitle">
+      <h5> FITNESS CLUB</h5>
+    </div>
+  
+  </div>
+  
+  <div class="center">
+
+
+   <div class="slickslider">
+   <section>
+    <div class="swiper mySwiper container">
+      <div class="swiper-wrapper content">
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="imagefile/main/fitnessevent1.jpg" alt="">
+            </div>
+
+            <div class="name-profession">
+              <span class="name">EVENT1</span>
+              <span class="profession">
+                Fitness events can be the boost your business needs to engage members. Gym events are fun and emphasize health, fitness, and wellness. Even with the most state-of-the-art facilities, you can still experience dwindling membership rates. Most marketers believe that event marketing is the single most-effective marketing channel. Fitness events are an effective way to add value and drive engagement. In this article, we will talk you through how to organize a fitness event.
+              </span>
+            </div>
+
+            
+
+            <div class="button">
+              <button class="aboutMe">Read More</button>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="swiper-slide card">
+          <div class="card-content videoslide">
+            <iframe height="350" width="330"  
+            src="https://www.youtube.com/embed/V9wq3_IFWeM">
+            </iframe>
+          </div>
+        </div>
+        
+        
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="imagefile/main/fitnessevent2.jpg" alt="">
+            </div>
+
+
+            <div class="name-profession">
+              <span class="name">EVENT2</span>
+              <span class="profession">Fitness events can be the boost your business needs to engage members. Gym events are fun and emphasize health, fitness, and wellness. Even with the most state-of-the-art facilities, you can still experience dwindling membership rates. Most marketers believe that event marketing is the single most-effective marketing channel. Fitness events are an effective way to add value and drive engagement. In this article, we will talk you through how to organize a fitness event.</span>
+            </div>
+
+
+
+            <div class="button">
+              <button class="aboutMe">Read More</button>
+          
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="imagefile/main/fitnessevent3.jpg" alt="">
+            </div>
+
+
+            <div class="name-profession">
+              <span class="name">Event3</span>
+              <span class="profession">
+                Fitness events can be the boost your business needs to engage members. Gym events are fun and emphasize health, fitness, and wellness. Even with the most state-of-the-art facilities, you can still experience dwindling membership rates. Most marketers believe that event marketing is the single most-effective marketing channel. Fitness events are an effective way to add value and drive engagement. In this article, we will talk you through how to organize a fitness event.
+              </span>
+            </div>
+
+
+
+            <div class="button">
+              <button class="aboutMe">Read More</button>
+          
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <iframe height="350" width="330"  
+            src="https://www.youtube.com/embed/C0SjUfzl04c">
+            </iframe>
+          </div>
+        </div>
+
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="imagefile/main/fitnessevent5.jpg" alt="">
+            </div>
+
+
+            <div class="name-profession">
+              <span class="name">Event5</span>
+              <span class="profession">
+                Fitness events can be the boost your business needs to engage members. Gym events are fun and emphasize health, fitness, and wellness. Even with the most state-of-the-art facilities, you can still experience dwindling membership rates. Most marketers believe that event marketing is the single most-effective marketing channel. Fitness events are an effective way to add value and drive engagement. In this article, we will talk you through how to organize a fitness event.
+              </span>
+            </div>
+
+
+
+            <div class="button">
+              <button class="aboutMe">Read More</button>
+          
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="imagefile/main/fitnessevent6.jpg" alt="">
+            </div>
+
+
+            <div class="name-profession">
+              <span class="name">Event6</span>
+              <span class="profession">
+                Fitness events can be the boost your business needs to engage members. Gym events are fun and emphasize health, fitness, and wellness. Even with the most state-of-the-art facilities, you can still experience dwindling membership rates. Most marketers believe that event marketing is the single most-effective marketing channel. Fitness events are an effective way to add value and drive engagement. In this article, we will talk you through how to organize a fitness event.
+              </span>
+            </div>
+
+          
+            <div class="button">
+              <button class="aboutMe">Read More</button>
+    
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <iframe height="350" width="330"  
+            src="https://www.youtube.com/embed/YGSelD1TZWY">
+            </iframe>
+          </div>
+        </div>
+
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="imagefile/main/fitnessevent8.jpg" alt="">
+            </div>
+
+
+            <div class="name-profession">
+              <span class="name">Event8</span>
+              <span class="profession">
+                Fitness events can be the boost your business needs to engage members. Gym events are fun and emphasize health, fitness, and wellness. Even with the most state-of-the-art facilities, you can still experience dwindling membership rates. Most marketers believe that event marketing is the single most-effective marketing channel. Fitness events are an effective way to add value and drive engagement. In this article, we will talk you through how to organize a fitness event.
+
+              </span>
+            </div>
+
+            <div class="button">
+              <button class="aboutMe">Read More</button>
+   
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+     </section>
+     </div>
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   <script type="text/javascript" src="javascript/slider.js"></script>
+  
+  </div>
+  
+  
+  <div class="footer">
+
+    <div class="footer-container">
+      <div class="left-col">
+        <img src="imagefile/logo.png" alt="" class="logo">
+        <div class="social-media">
+          <a href="#"><i class="fab fa-facebook-f footericons"></i></a>
+          <a href="#"><i class="fab fa-twitter footericons"></i></a>
+          <a href="#"><i class="fab fa-instagram footericons"></i></a>
+          <a href="#"><i class="fab fa-youtube footericons"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in footericons"></i></a>
+        </div>
+        <p class="rights-text">© 2020 Created By YASH All Rights Reserved.</p>
+        
+      </div>
+  
+      <div class="right-col">
+        <h1>Our Newsletter</h1>
+        <div class="border"></div>
+        <p>Enter Your Email to get our news and updates.</p>
+        <form action="" class="newsletter-form">
+          <input type="text" class="txtb" placeholder="Enter Your Email">
+          <input type="submit" class="btn" value="submit">
+        </form>
+      </div>
+    </div>
+    
+  </div>
+  </div>
+
+  
+
+</body>
+</html>
+
+
